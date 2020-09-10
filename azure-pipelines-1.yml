@@ -21,3 +21,6 @@ steps:
     chmod +x aw.sh
     ./aw.sh
   displayName: 'Run a multi-line script'
+- task: Bash@3
+  inputs:
+    filePath: 'aw.sh'
