@@ -24,3 +24,7 @@ steps:
 - task: Bash@3
   inputs:
     filePath: 'aw.sh'
+
+- task: Bash@3
+  inputs:
+    filePath: 'importIdsFinder.sh'
